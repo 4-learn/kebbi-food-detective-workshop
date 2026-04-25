@@ -1,0 +1,31 @@
+# === Secrets — never commit ===
+.openai/
+.liyu/
+.hackmd/
+.rclone/
+
+# === Student workspaces — regeneratable from teacher template via provision-group.sh ===
+g[0-9]/
+g1[0-9]/
+
+# === Per-machine Android settings ===
+**/local.properties
+
+# === Build artifacts ===
+**/.gradle/
+**/build/
+**/app/build/
+**/output/
+
+# === Caches & IDE ===
+.idea/
+*.iml
+.vscode/
+.DS_Store
+*.log
+__pycache__/
+*.pyc
+
+# === Backups ===
+*.bak
+*.bak.*
